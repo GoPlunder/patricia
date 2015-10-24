@@ -147,27 +147,29 @@ main {
 	width: 100%;
 }
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/slide1_MG_1121.jpg')}
+#slide-1 .bcg {background-image:url('../img/slide4_MG_1293.jpg')}
 
 /* Slide 2 */
 #slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/slide3_MG_1172.jpg')}
+#slide-3 .bcg {background-image:url('../img/slide5_2_MG_6034.jpg')}
+
+/* Slide 3.1 */
+#slide-3-1 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
+
+/* Slide 3.2 */
+#slide-3-2 .bcg {background-image:url('../img/slide5_1_MG_1351.jpg')}
+
+/* Slide 3.3 */
+#slide-3-3 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
 
 
 /* Slide 4 */
-.curtainContainer {width: 100%; height: 100%; position: relative;}
-.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
-.curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
-
-#slide-4 .bcg {background-image:url('../img/slide4_MG_1293.jpg')}
+#slide-4 .bcg {background-image:url('../img/slide1_MG_1121.jpg')}
 
 /* Slide 5 */
-#slide-5 {position: relative;}
-#slide-5 .bcg {background-image:url('../img/slide5_1_MG_1351.jpg')}
-#slide-5 .bcg2 {background-image:url('../img/slide5_2_MG_6034.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
-#slide-5 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
+#slide-5 .bcg3 {background-image:url('../img/slide3_MG_1172.jpg'); z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
 
 .hsContainer {
 	display: table;
@@ -435,13 +437,15 @@ main {
 
 body {
     /*font-family: 'Roboto', sans-serif!important;*/
-    font-family: 'Bree Serif', serif!important;
+    font-family: 'Josefin Slab'!important;, serif;
+    font-weight: 600!important;
 }
 
 h1, h2, h3, h4 {
     /*font-family: 'Lobster', cursive!important;*/
     /*font-family: 'Lily Script One', cursive!important;*/
     /*font-family: 'Great Vibes', cursive!important;*/
-    font-family: 'Bree Serif', serif!important;
+    font-family: 'Josefin Slab'!important;, serif;
+    font-weight: 700!important;
     /*font-family: 'Pacifico', cursive!important;*/
 }
