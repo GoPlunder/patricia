@@ -190,7 +190,8 @@
 				    	<div class="hsContent" data-100-bottom="opacity: 0;" data-bottom="opacity: 1;" data-anchor-target="#slide-5">
 				    		<div style="margin-left: auto; width: 25%; color: black;">
                                 <h2 style="color: black;">Kontaktformular</h2>
-                                <form id="kontaktformular" name="kontaktformular" action="mailto:belindazahra@yahoo.de" method="post">
+                                <form id="kontaktformular" name="kontaktformular" action="http://www.formular-chef.de/fc.cgi" method="post" enctype="multipart/form-data">
+									<input type="hidden" name="empfaenger" value="belindazahra@yahoo.de"/>
                                     <div>
                                         <label for="absender">Name:</label>
                                         <br>
@@ -200,7 +201,7 @@
                                     <div>
                                         <label for="nachricht">Nachricht:</label>
                                         <br>
-                                        <textarea class="width-15em" id="nachricht" name="nachricht" cols="20" rows="5"></textarea>
+                                        <textarea class="width-15em" id="nachricht" name="nachricht" type="text" cols="20" rows="5"></textarea>
                                     </div>
                                     <div>
                                         <input class="margin-top-2em button" type="submit" value="Abschicken" />
